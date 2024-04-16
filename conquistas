@@ -1,0 +1,9 @@
+def imprimir_conquistas(conquistas, start=1):
+    indice = start
+    for conquista in conquistas:
+        print(f'Conquista {indice}: {conquista}')
+        indice += 1
+
+# exemplo de Uso
+conquistas = ['Primeira Vitória', 'Derrotou o Chefe Final', 'Coletou o Tesouro Secreto']
+imprimir_conquistas(conquistas)
