@@ -8,3 +8,5 @@ listaNomes.append("Kauã")
 
 for nome in listaNomes:
     print(nome)
+
+# Teste
