@@ -17,3 +17,13 @@ print(pais['nome'])
 pais.clear()
 
 print(pais)
+
+pais = {'nome' : 'Estados Unidos','moeda' : 'Euro'} 
+
+print(pais)
+
+print(pais['moeda'])
+
+pais.clear()
+
+print(pais)
