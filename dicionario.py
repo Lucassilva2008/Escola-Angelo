@@ -1,29 +1,8 @@
-pais = {'nome' : 'França','capital' : 'Paris'} 
-
+pais = {"nome" : "Brasil","capital" : "Brasilia"} 
 print(pais)
+print(pais["capital"])
+ # pais.clear()
 
-print(pais['capital'])
-
-pais.clear()
-
-print(pais)
-
-pais = {'nome' : 'Inglaterra','capital' : 'Londres'} 
-
-print(pais)
-
-print(pais['nome'])
-
-pais.clear()
-
-print(pais)
-
-pais = {'nome' : 'Estados Unidos','moeda' : 'Euro'} 
-
-print(pais)
-
-print(pais['moeda'])
-
-pais.clear()
-
-print(pais)
+# Metodo get()
+print(pais.get("nome", "Não existe"))
+print(pais.get("qualquer", "Não existe"))
